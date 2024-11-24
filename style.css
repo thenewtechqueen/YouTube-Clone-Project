@@ -1,0 +1,462 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    letter-spacing: -0.25px;
+}
+
+.youtube.container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+
+.top-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 2rem 0.5rem 2rem;
+}
+
+.top-left-container{
+    width: fit-content;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    column-gap: 1.5rem;
+}
+
+.menu-icon-container{
+    width: fit-content;
+    height: auto;
+}
+
+.menu-icon-container i{
+    font-size: 1.3rem;
+    text-decoration: none;
+    cursor: pointer; 
+}
+
+.logo-container{
+    width: 136px;
+    height: 54px;
+}
+
+.logo-container img{
+    width: 100%;
+    height: 100%;
+}
+
+.search-container{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    column-gap: 1rem;
+}
+
+.form{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+
+.form input{
+    padding: 1rem 1rem 1rem 1.5rem;
+    width: 32rem;
+    border: 1px solid #d4d4d4;
+    border-top-left-radius: 12rem;
+    border-bottom-left-radius: 12rem;
+    outline: none;
+}
+
+input:focus{
+   border: 1px solid blue; 
+}
+
+.search-icon-container{
+    width: fit-content;
+    height: auto;
+    padding: 1rem 2rem 1rem 2rem;
+    background-color: #f2f2f2;
+    border-top-right-radius: 12rem;
+    border-bottom-right-radius: 12rem;
+    cursor: pointer;
+}
+
+.microphone-container{
+    width: fit-content;
+    height: auto;
+    background-color: #f2f2f2;
+    padding: 1rem 1.2rem 1rem 1.2rem;
+    border-radius: 100000rem;
+    cursor: pointer;
+}
+
+.right-container{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    column-gap: 1.5rem;
+    justify-content: start;
+    align-items: center;
+}
+
+.create-icon-container{
+    width: fit-content;
+    height: auto;
+}
+
+.create-icon-container i{
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.notifications-container{
+    width: fit-content;
+    height: auto;
+}
+
+.notifications-container i{
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.initials-container{
+    background-color: dodgerblue;
+    padding: 0.9rem 1.1rem 0.9rem 1.1rem;
+    border-radius: 1000000rem;
+    cursor: pointer;
+}
+
+.initials-container h1{
+    font-size: 1rem;
+}
+
+.button-container{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    column-gap: 2.5rem;
+}
+
+.sidebar{
+    width: 16%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+
+.first-sidebar-section{
+    width: 100%;
+    height: auto;
+    padding: 1rem 1rem 1.5rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    border-bottom: 1px solid #e3e3e3;
+}
+
+.menu-item-contain{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    padding: 0.85rem;
+    justify-content: start;
+    align-items: center;
+    column-gap: 1rem;
+    cursor: pointer;
+}
+
+.menu-item-contain:hover{
+    background-color: #f2f2f2;
+    border-radius: 0.5rem;
+}
+
+.menu-icon-container{
+    width: fit-content;
+    height: auto;
+}
+
+.menu-icon-container i{
+    font-size: 1rem;
+}
+
+.menu-text-container{
+    width: fit-content;
+    height: auto;
+}
+
+.menu-text-container p{
+    font-size: 0.9rem;
+}
+
+.second-sidebar-section{
+    width: 100%;
+    height: auto;
+    padding: 1rem 1rem 1.5rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    border-bottom: 1px solid #e3e3e3;
+}
+
+.you-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    padding: 0.85rem;
+    column-gap: 1rem;
+    justify-content: start;
+    align-items: center;
+    cursor: pointer;
+}
+
+.you-container:hover{
+    background-color: #f2f2f2;
+    border-radius: 0.5rem;
+}
+
+.you-text-container, .arrow-container{
+    width: fit-content;
+    height: auto;
+}
+
+.you-text-container p{
+    font-weight: 500;
+}
+
+.arrow-container i{
+    font-size: 1rem;
+}
+
+.third-sidebar-section{
+    width: 100%;
+    height: auto;
+    padding: 1rem 1rem 1.5rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    border-bottom: 1px solid #e3e3e3;
+}
+
+.explore-container{
+    width: fit-content;
+    height: auto;
+}
+
+.explore-container h2{
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 0.85rem;
+}
+
+.chips-and-videos-container{
+    width: 84%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    justify-content: start;
+    align-items: start;
+    row-gap: 2rem;
+}
+
+.chips-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    column-gap: 0.8rem;
+}
+
+.chip-container{
+    width: fit-content;
+    height: auto;
+    background-color: #f2f2f2;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.chip-container:hover{
+    background-color: #e3e3e3;
+}
+
+.arrow-icon-container{
+    width: fit-content;
+    height: auto;
+    padding: 0.8rem 1.1rem 0.8rem 1.1rem;
+    cursor: pointer;
+}
+
+.arrow-icon-container:hover{
+    background-color: #e3e3e3;
+    border-radius: 100000rem;
+}
+
+.chip-container p{
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.Videos-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    flex-wrap: wrap;
+    column-gap: 1rem;
+}
+
+.video-card{
+    width: 45%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    row-gap: 0.8rem;
+    cursor: pointer;    
+}
+
+.movie-poster{
+    width: 100%;
+    height: 45%;
+    background-color: #e2e2e2;
+    background-image: url("./images/All\ it\ takes.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 0.8rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: last baseline;
+    padding: 0.5rem;
+    line-height: 1.6rem;
+}
+
+.movie-duration{
+    width: fit-content;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 0.3rem 0.2rem 0.3rem 0.2rem;
+    border-radius: 0.5rem;
+    color: #f2f2f2;
+}
+
+.movie-duration p{
+    font-size: small;
+    font-weight: 500;
+}
+
+.movie-info{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+}
+
+.profile-icon img{
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    margin-right: 1rem;
+}
+
+.movie-details-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 0.5rem;
+}
+
+.movie-title-icon{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.movie-title{
+    width: fit-content;
+    height: auto;
+}
+
+.movie-title p{
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.tv-views-time{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    justify-content: center;
+    row-gap: 0.2rem;
+    color: #4e4a4a;
+}
+
+.tv-name{
+    width: fit-content;
+    height: auto;
+    
+}
+
+.views-time{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    column-gap: 0.2rem;
+}
+
+.tv-name p{
+    font-size: 0.9rem;
+}
+
+.views-time p{
+    font-size: 0.9rem;
+}
+
